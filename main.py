@@ -16,7 +16,7 @@ while abs(fx) > precision:
 
     k += 1 #Attempts count // contador de tentativas
 
-    print("\n{}* Result = {:.8f}\n".format(k, x))
+    print("\n{}* Result = {:.8f}\n".format(k, x)) #PT: Resultado
 
 
-print("Final result in {} attempts = {:.8f}".format(k,x))
+print("Final result in {} attempts = {:.8f}".format(k,x)) #PT: Resultado final em {} tentativas 
