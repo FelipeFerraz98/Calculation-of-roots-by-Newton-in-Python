@@ -1,9 +1,9 @@
 precision = 1e-07
 
 k = 0
-x = int(input("Enter a value you want to calculate the root of: "))
+x = int(input("Enter a value you want to calculate the root of: ")) #PT: Insira um valor do qual você deseja calcular a raiz:
 e = x
-i = int(input("Enter an index for the root: "))
+i = int(input("Enter an index for the root: ")) #PT: Insira um índice para a raiz:
 
 fx = x**i - e
 
